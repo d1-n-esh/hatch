@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script src="../control.js"></script>
+<script src="../jquery.js"></script>
+
+<body style="margin:0px;background:#DE153B">
+<!--    <div class="overlay">
+ 
+    </div>-->
+<div id="maincontentwrap" style="position:fixed;">
+    <div id="content" style="transition:3s;z-index:100;position:fixed">
+        <div id="header" style="width:100%;position:fixed;top:0px;height:50px;">
+            <img onclick="javascript:document.location.href='../index.html'" style="cursor:pointer;float:left;height:30px;margin-top:20px;margin-left:50px;" src="../images/headerimg2.png"/>
+            <div id="menuicon" onclick="showSideMenu()" style="cursor:pointer;height:50px;float:right;margin-top:10px;margin-right:30px;">
+                <div style="margin-left:10px;height:5px;width:20px;background:white;margin-bottom:2px;border-radius:30%;"></div>
+                <div style="height:5px;width:30px;background:white;margin-bottom:2px;border-radius:30%;"></div>
+                <div style="margin-left:10px;height:5px;width:20px;background:white;margin-bottom:0px;border-radius:30%;"></div>
+            </div>
+        </div>
+        <div style="position:fixed;margin-top:80px;width:100%;color:white;">
+            <div style="width:100%;height:100px;text-align:center;">
+                <span style="display:block;width:100%;font-size:25px;margin-bottom:15px;">Design</span>
+                <span>We are hands on, we are nitpicky and we are on a mission to create<br>
+                    a user experience that brings delight and inspires awe</span>
+            </div>
+            <div style="width:100%;height:450px;">
+                <div style="float:left;width:30%;height:100%;">
+                    <img style="float:right;margin-bottom:55px;" src="../images/iotidea.png"/>
+                    <img style="float:right;" src="../images/iotdesign.png"/>
+                </div>
+                <div style="float:left;width:39%;height:100%;">
+                    <img style="height:250px;width:90%;margin-left:5%;margin-top:50px;" src="../images/iotimg.png"/>
+                </div>
+                <div style="float:left;width:30%;height:100%;">
+                    <img style="float:left;margin-bottom:55px;" src="../images/iotdev.png"/>
+                    <img style="float:left;" src="../images/iotquality.png"/>
+                </div>
+            </div>
+        </div>
+        <div onclick="javascript:closesidemenu()" id="freezelayer" style="display:none;z-index:200;position:fixed;opacity:0;background:white;width:60%;float:right;height:100%;"></div>
+            <div id="sidemenu" style="top:0px;font-family:Helvetica;z-index:200;transition:2s;position:fixed;opacity:0.8;background:black;margin-left:120%;width:40%;float:right;;height:100%;">
+                <img style="margin-left:65%;margin-top:10px;cursor:pointer;" src="../images/sidemenuclose.png" onclick="javascript:closesidemenu()"/>
+                <div style="color:white;margin-top: 120px;padding-left: 30px;font-weight: 600;font-size: 20px;">
+                    <span class="menuitems">Introduction</span>
+                    <span class="menuitems">Our Story</span>
+                    <span class="menuitems">What We Do</span>
+                    <span class="menuitems">Code of School</span>
+                    <span class="menuitems">Built By Hatch</span>
+                    <span class="menuitems">News Ahem!</span>
+                    <span class="menuitems">Contact</span>
+                </div>
+                <div style="padding-left:30px;margin-top:50px;width:200px;color:white;font-size:12px;">
+                    <a target="_blank" href="https://www.linkedin.com/" class="links">LinkedIn</a>
+                    <a target="_blank" href="https://dribbble.com/" class="links">Dribble</a>
+                    <a target="_blank" href="https://www.facebook.com/" class="links">Facebook</a>
+                    <a target="_blank" href="" class="links">Medium</a>
+                    <a target="_blank" href="https://twitter.com/login?lang=en" class="links">Twitter</a>
+                    <a target="_blank" href="" class="links">Instagram</a>
+                </div>
+                <div style="margin-left:140px;color:white;margin-top:50px;font-size:10px;">
+                    2016 Hatch, All rights are reserved
+                </div>
+            </div>
+    </div>
+</div>
+<!--    <div style="height:90%;width:100%;border:1px solid rgba(0,0,0,0.4)" onclick="javascript:temp()">
+        hello world
+    </div>-->
+</body>
+</html>
