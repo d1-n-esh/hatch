@@ -10,7 +10,7 @@ var slidertxt2=["We don't<br>build apps that just work, we<br>build apps that in
                     "With every object on<br>earth waiting to connect to<br>the internet, we at Hatch<br>are busy mastering &<br>making this happen.",
                         "<br>Push the boundaries of what<br>technology can do for you.",
                             "Empowering<br>the people will the most<br>important language on<br>earth - code."];
-var links=["layout/appdev.html","layout/design.html","layout/iot.html","error","error"];                      
+var links=["layout/appdev.html","layout/design.html","layout/iot.html","layout/error.html","layout/error.html"];                      
 function temp(){
     alert("working");
 }
